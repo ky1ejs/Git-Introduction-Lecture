@@ -3,22 +3,49 @@
 
 ![inline](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png)
 
-^ - The VCS Git
-- Incredibly important for your group work
-- An impressive skill to take right out of Uni
-- all companies use some form of VCS
-- mostly Git
-- One you know git, you can contribute to OS
-- This again, looks good
-- more change of getting employed
+^ - Git is a VCS
+
+^ - group work
+
+^ - employment (impressive)
+
+^ - open source
+
+^ - GitHub
 
 ---
 
 ![inline](images/deck-rocket.png)
 
+^ Issue tracking
+
+^ comments
+
+^ Pull requests
+
 ---
 
 ![inline](images/mattt.png)
+
+^ Contribution frequency
+
+^ code examples
+
+^ your personal time
+
+^ if time:
+if you're into iOS
+probably check this guy out
+
+---
+
+![inline](images/gh-education.png)
+
+^ public - free
+
+^ private paid
+
+^ should use public unless proprietary
 
 ---
 
@@ -32,6 +59,8 @@ You should have a rough idea of what Git does
 
 You should have the tools and foundation knowledge to learn Git
 
+^ Go: moments to learn....
+
 ---
 
 ### How are we going to do this:
@@ -40,7 +69,7 @@ You should have the tools and foundation knowledge to learn Git
 2. What's Version Control?
 2. Why was Git created? - __*Brief History*__
 3. The story of a dev team
-4. Some basics Git commands
+4. Some basic Git commands
 6. Q&A - _but ask whenever a question pops in to your head_
 
 ^ History helpful when understanding why Git is made the way it is
@@ -54,10 +83,10 @@ You should have the tools and foundation knowledge to learn Git
 ### How are we going to do this:
 
 1. Who is Kyle, why does he know Git?
-2. What's Version Control?
+2. What's Version Control? What is Git?
 2. Why was Git created? - __*Brief History*__
 3. The story of a dev team
-4. Some basics Git commands
+4. Some basic Git commands
 6. Q&A - _but ask whenever a question pops in to your head_
 
 ^ History helpful when understanding why Git is made the way it is
@@ -75,7 +104,7 @@ You should have the tools and foundation knowledge to learn Git
 - mainly iOS
 
 ^ We use Git every day
-I've been using it solidly for about a year
+1 year
 
 ---
 
@@ -84,19 +113,15 @@ I've been using it solidly for about a year
 ##What is Version Control?
 
 ^ - you've all done it before
+- Think about using cmd+z
 
 ^ - It's keeping track of changes
 - You make a change, that's version 1
 
 ^ - why do this?
-- It's often important to be able to go back to old versions
-- Think about using cmd+z
-- Other features of VCS - BRANCHES
-- we'll see later
+- rollback - like cmd+z
 
-^ - How can you control versions?
-- let's look at some examples
-- _next slide_
+^ let's explore example
 
 ---
 
@@ -110,13 +135,27 @@ I've been using it solidly for about a year
 
 ![inline 90%](images/essay.png) ![inline 90%](images/essay-v2.png) ![inline 90%](images/essay-v3.png)
 
+^ Gets messy as you go
+
+^ Git manages this
+
+^ You can also track others
+
+^ NEXT SLIDE
+
 ---
 
 ![inline 90%](images/essay.png) ![inline 90%](images/spreadsheet.png) ![inline 90%](images/logo.png)
 
+^ It's harder to see changes in these
+
 ---
 
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png)
+
 # Git
+
+^ We know so far
 
 _Keeps track of changes to files in your project_
 
@@ -124,66 +163,326 @@ _Mainly used for Source Code Management_
 
 __*Especially*__ _good at tracking text file changes_
 
-_Allows you to see the differences between versions_
-
 _Allows you to quickly and easily move between versions_
 
-^ Best bit of git is branches
-_NEXT SLIDE_
+_Allows you to see the differences between versions_
 
-![](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png)
+^ Diff - GUI is handy 
+DIFF next slide
 
 ---
+
+![inline](images/diff.png)
+
+^ BUT
+killer feature - BRANCHES
+NEXT SLIDE
+
+---
+
+# Branching
 
 ![inline](https://raw.githubusercontent.com/quickhack/translations/master/git-workflows-and-tutorials/images/git-workflows-gitflow.png)
 
+^ - Allow you to experiment
+- help you work with others
+
+^ - How can you control versions?
+- let's look at some examples
+- _next slide_
+
+^ lets look at some history
+show you how people tried to implement VCS
+
 ---
 
-![](http://atcoitec.com/wp-content/uploads/2014/01/Linus-Torvalds-1.jpg)
+![](images/bombe.jpg)
 
-# __VCS History__
+# *VCS History*
+
+^ - Gitmassively popular today
+- but VCSs have been used since 70s
+- many popular ones
+- There are 5 important ones
+- that we should look at
+- to show good ideas in VCS
+
+^ Anyone recognise the background?
+
+---
+
+# SCCS
+### _1972_  •  _Unix_  •  _closed source_ • _Free_
+### Saves future changes only
+
+^ Developed by AT&T
+better than saving doc over and over (saw earlier)
+free with Unix
+taught at Uni
+took to jobs
+became popular
+
+
+---
+
+# RCS
+### _1982_  •  _Unix and other PCs_  •  _open source_
+### Saves past changes only
+
+^ Revision Control System
+Unix & PC
+More intuitive, cleaner syntax
+MOST IMPORTANT: faster
+LIFO - flipped SCCS around
+much faster that SCCS
+
+^Problems SCCS and RCS:
+only track on file
+not whole project or sets
+
+---
+
+# [fit] Concurrent Version System (CVS)
+### _1986_ • _open source_
+### Tracks multiple files _•_ Repository
+
+^ REPO 
+Work with multiple files
+keeps changes in REPO
+not changes per file
+
+^ tracks each file individually
+share all the files on server
+people worling **concurrently**
+
+^ make repo clear
+
+---
+
+# Repository (Repo)
+
+> A place where things are stored and can be found
+-- The Cambridge Dictionary
+
+---
+
+# [fit] Subversion (SVN)
+### _2000_ • _open source_
+### [fit] Non-text files _•_ Directory Snapshotting
+
+^ CVS: tracks files indiv.
+SVN: tracks directory
+CVS: revision x of given doc
+SVN: doc as it appears in revision x
+which could be the same as rev y
+
+^ small diff but important
+SVN could track name changes
+CVS couldn't
+Quicker: applys one snapshot for dir
+instead of one for every file
+
+^ Stayed popular for a very long time
+but one more to look at
+
+---
+
+# BitKeeper
+### [fit] _2000_ • _closed source_ • _free community version_
+### Distributed VCS
+
+^ first to have DVCS
+we'll go over this later
+
+^ Used for Linux Kernel
+kinda contravertion
+people predicted that it might made non-free
+in April 2005, NOT Free
+predictions true
+
+---
+
+_SCCS_ - 1970, closed source, _smarter storage_
+
+_RCS_ - 1972, open source, __*even*__ _smarter storage_, _multiple OS_
+
+_CVS_ - 1986, open source, _multiple files_, _repository_
+
+_SVN_ - 2000, open source, _dir snapshotting_, _non-text files_
+
+_BitKeeper_ - 2000, closed source, _Distributed VCS_
 
 ---
 
 ![](http://atcoitec.com/wp-content/uploads/2014/01/Linus-Torvalds-1.jpg)
 
 ^Who knows this guy?
+he drives dev on Linux
 
-^ Git is massively popular
-like I said VCSs have been used since 70s
-what came before
-
----
-
-![inline](http://oss.deltares.nl/image/image_gallery?uuid=0b897327-3938-4903-ad67-ea71cf0100cb&groupId=183920&t=1409227488183)
-
-^ Who knows what this is?
+^ didn't like any others VCS out there
+like some of their concepts/features
+like DVCS in BitKeeper
+though her could do better
 
 ---
 
-![inline 80%](http://atcoitec.com/wp-content/uploads/2014/01/Linus-Torvalds-1.jpg) ![inlin 80%](http://oss.deltares.nl/image/image_gallery?uuid=0b897327-3938-4903-ad67-ea71cf0100cb&groupId=183920&t=1409227488183)
+# Git
+### _April, 2005_
+
+Distributed VCS
+Multiple file types
+Super fast
+Open source
+Compatible with Unix like (Linux, Mac OS X, Solaris), Windows
+
+^ Created by Linus
+two weeks?
+
+^ open source & free
+community can contribute
+bug fixes
+improvements/features
+we benegit
+
+^ Popularity exploded
+no official stats
+GitHub launched 2008
+2009 50,000 repos
+	 100,000 users
+
+^ 2011 over 2 mil repos
+	 1 mil users
 
 ---
 
+# GitHub
 
+Launched _2008_
 
----
-
-## This is Alex
-
----
-
-Alex wrote a password storage application for iPhone a while ago
+By _2009_ had _50,000 repos_ and _100,000 users_
 
 ---
 
-Image of iPhone 6 came out
+# GitHub
 
-^ so he wants to add Touch ID capability to it
+Launched _2008_
+
+By _2009_ had _50,000 repos_ and _100,000 users_
+
+## By _2011_ had over _2 MILLION repos_ and _1 MILLION users_
 
 ---
 
-Alex starts coding away
+![](http://www.scalecomputingstore.info/wp-content/uploads/2015/01/servers.jpg)
+
+# [fit] Distributed Version Control
+
+^ Linus' favourite feature of BK
+The 5 other RCSs used a centralised
+
+^ centralised - stored in one place
+
+^ distributed - stored in many places
+
+^ Git stores files differently
+
+---
+
+![80%](images/centralised.png)
+
+^ user checkouts file
+^ edits
+^ to save has to push up
+
+---
+
+![75%](images/distributed.png)
+
+^ no repo depends on the other
+^ Git tracks change sets, not versions
+^ means that each repo can be different
+^ to illustrate this
+^ next slide
+
+---
+
+![95%](images/vcs-deltas.png)
+
+---
+
+![95%](images/git-change-sets.png)
+
+---
+
+# Benefits of DVCS
+
+- _Faster_
+- _No network access required_
+- _No single failure point_
+- _Devs can work independantly_
+
+### It also encourages people to _Fork_ Open Source project
+
+---
+
+![](http://davidatlanta.com/wp-content/uploads/2014/02/Bild_App1.jpg)
+
+# [fit] _Story of a_
+# [fit] __*Dev Team*__
+
+---
+
+![inline 100%](images/alex.png) ![inline] (images/password-app.png)
+
+---
+
+![fit](images/history1.png)
+
+---
+
+![fit](images/history2.png)
+
+---
+
+![fit](images/history3.png)
+
+---
+
+![inline 100%](images/dev-team.png)
+
+---
+
+![fit](images/branches1.png)
+
+---
+
+![fit](images/branches2.png)
+
+^ Touch on merge conflicts
+
+---
+
+![fit](images/branches3.png)
+
+---
+
+![fit](images/branches4.png)
+
+---
+
+![inline](http://cdn.meme.am/instances/500x/51181234.jpg)
+
+---
+
+# __*Q&A*__ :raising_hand:
+
+## <br>
+
+### @kylejm_
+
+### <br>
+
+### Feedback   :inbox_tray:   k@kylejm.io
 
 
 
