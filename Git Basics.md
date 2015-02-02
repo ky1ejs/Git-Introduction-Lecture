@@ -22,6 +22,11 @@
 ^ comments
 
 ^ Pull requests
+NEXT SLIDE
+
+---
+
+![inline](images/pull-request.png)
 
 ---
 
