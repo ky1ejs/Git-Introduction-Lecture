@@ -68,6 +68,14 @@ You should have the tools and foundation knowledge to learn Git
 
 ---
 
+# Go
+
+__*A few moments to learn,*__ **a lifetime to master**
+
+![inline](http://go.weiqi.ru/files/china1.JPG)
+
+---
+
 ### How are we going to do this:
 
 1. Who is Kyle, why does he know Git?
@@ -430,6 +438,8 @@ The 5 other RCSs used a centralised
 
 Repo 1: _A_, _B_, _C_, _D_, _E_, _F_, _G_
 
+^ Individually seperate and distinct
+
 ---
 
 # [fit] Discrete change sets, not deltas (differences)
@@ -531,7 +541,6 @@ branch for experiment
 ^ show diff
 
 ^ show checkout
-
 ^ NEXT SLIDE
 
 ---
@@ -539,7 +548,10 @@ branch for experiment
 ![80%](images/checkout.png)
 
 ^ Back to terminal
-show git checkout
+show git checkouts
+
+^ show branch
+^ show pull with Dan's help
 
 ---
 
