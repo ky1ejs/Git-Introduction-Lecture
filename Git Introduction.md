@@ -426,6 +426,33 @@ The 5 other RCSs used a centralised
 
 ---
 
+# [fit] Discrete change sets, not deltas (differences)
+
+Repo 1: _A_, _B_, _C_, _D_, _E_, _F_, _G_
+
+---
+
+# [fit] Discrete change sets, not deltas (differences)
+
+Repo 1: _A_, _B_, _C_, _D_, _E_, _F_, _G_
+
+Repo 2: _A_, _B_, _C_, _E_, _G_
+
+---
+
+# [fit] Discrete change sets, not deltas (differences)
+
+Repo 1: _A_, _B_, _C_, _D_, _E_, _F_, _G_
+
+Repo 2: _A_, _B_, _C_, _E_, _G_
+
+Repo 3: _A_, _C_, _G_
+
+Repo 4: _B_, _D_, _E_, _F_, _G_
+
+
+---
+
 # Benefits of DVCS
 
 - _Faster_
@@ -479,7 +506,7 @@ mucks up password
 
 ![fit](images/branches2.png)
 
-^ Touch on merge conflicts
+^ Touch on MERGE CONFLICTS
 
 ---
 
@@ -497,8 +524,14 @@ branch for experiment
 
 ![inline](http://cdn.meme.am/instances/500x/51181234.jpg)
 
-^ show basics
-^ show GUIs
+^ show GUI throughout
+
+^ show add
+^ show commit
+^ show diff
+
+^ show checkout
+
 ^ NEXT SLIDE
 
 ---
