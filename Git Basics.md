@@ -151,6 +151,12 @@ You should have the tools and foundation knowledge to learn Git
 
 ---
 
+## Save to Repo = Commit
+
+![inline](images/committing.png)
+
+---
+
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png)
 
 # Git
@@ -426,9 +432,7 @@ The 5 other RCSs used a centralised
 
 ---
 
-## Save to Repo = Commit
-
-![inline](images/committing.png)
+![inline](images/git-centralised.png)
 
 ---
 
