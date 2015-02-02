@@ -327,13 +327,12 @@ though her could do better
 ---
 
 # Git
-### _April, 2005_
-
-Distributed VCS
-Multiple file types
-Super fast
-Open source
-Compatible with Unix like (Linux, Mac OS X, Solaris), Windows
+#### Dev started April, 2005
+- _Distributed VCS_
+- _Multiple file types_
+- _Super fast and reliable_
+- _Open source_
+- _Compatible with Unix like OS (Linux, Mac OS X, Solaris) and Windows_
 
 ^ Created by Linus
 two weeks?
@@ -398,6 +397,8 @@ The 5 other RCSs used a centralised
 
 ![75%](images/distributed.png)
 
+^ Each has own copy
+^ copy -> Working Copy
 ^ no repo depends on the other
 ^ Git tracks change sets, not versions
 ^ means that each repo can be different
@@ -419,9 +420,15 @@ The 5 other RCSs used a centralised
 - _Faster_
 - _No network access required_
 - _No single failure point_
-- _Devs can work independantly_
+- _Devs can work independently_
 
 ### It also encourages people to _Fork_ Open Source project
+
+---
+
+## Save to Repo = Commit
+
+![inline](images/committing.png)
 
 ---
 
@@ -442,9 +449,14 @@ The 5 other RCSs used a centralised
 
 ![fit](images/history2.png)
 
+^ By adding Touch ID
+mucks up password
+
 ---
 
 ![fit](images/history3.png)
+
+^ Simply fixes it by rolling back
 
 ---
 
@@ -468,9 +480,44 @@ The 5 other RCSs used a centralised
 
 ![fit](images/branches4.png)
 
+^ Works for single dev too
+branch for feature
+branch for experiment
+
 ---
 
 ![inline](http://cdn.meme.am/instances/500x/51181234.jpg)
+
+^ show basics
+^ show GUIs
+^ NEXT SLIDE
+
+---
+
+![80%](images/checkout.png)
+
+^ Back to terminal
+show git checkout
+
+---
+
+# Installing Git
+
+_Mac_ - Prompts install on first use
+
+_Windows_  - git-scm.com
+
+---
+
+## _Helpful sites_
+
+git-scm.com (Pro Git Book)
+
+github.com
+
+atlassian.com/git
+
+stackoverflow.com
 
 ---
 
@@ -483,6 +530,12 @@ The 5 other RCSs used a centralised
 ### <br>
 
 ### Feedback   :inbox_tray:   k@kylejm.io
+
+^ important to learn Git
+^ important to learn Cmd line
+^ GUI Where needed
+^ Use Git for almost everything
+^ this presentation is on GitHub
 
 
 

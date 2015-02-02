@@ -36,9 +36,13 @@
 		<string>HelveticaNeue-Light</string>
 		<string>HelveticaNeue-Light</string>
 		<string>AppleColorEmoji</string>
+		<string>HelveticaNeue-Light</string>
+		<string>HelveticaNeue-Light</string>
+		<string>HelveticaNeue-Light</string>
+		<string>HelveticaNeue-Light</string>
 	</array>
 	<key>length</key>
-	<integer>78066</integer>
+	<integer>96306</integer>
 	<key>version</key>
 	<integer>18</integer>
 </dict>
