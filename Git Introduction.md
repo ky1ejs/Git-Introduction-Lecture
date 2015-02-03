@@ -164,7 +164,7 @@ __*A few moments to learn,*__ **a lifetime to master**
 
 ---
 
-## Save to Repo = Commit
+## Save to Git = Commit
 
 ![inline](images/committing.png)
 
