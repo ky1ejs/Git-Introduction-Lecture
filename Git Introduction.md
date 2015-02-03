@@ -15,7 +15,7 @@
 
 ---
 
-![inline](images/deck-rocket.png)
+![](images/deck-rocket.png)
 
 ^ Issue tracking
 
@@ -26,11 +26,11 @@ NEXT SLIDE
 
 ---
 
-![inline](images/pull-request.png)
+![](images/pull-request.png)
 
 ---
 
-![inline](images/mattt.png)
+![](images/mattt.png)
 
 ^ Contribution frequency
 
@@ -44,7 +44,7 @@ probably check this guy out
 
 ---
 
-![inline](images/gh-education.png)
+![](images/gh-education.png)
 
 ^ public - free
 
@@ -191,7 +191,7 @@ DIFF next slide
 
 ---
 
-![inline](images/diff.png)
+![](images/diff.png)
 
 ^ BUT
 killer feature - BRANCHES
