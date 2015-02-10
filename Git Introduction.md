@@ -323,7 +323,7 @@ predictions true
 
 _SCCS_ - 1970, closed source, _smarter storage_
 
-_RCS_ - 1972, open source, __*even*__ _smarter storage_, _multiple OS_
+_RCS_ - 1982, open source, __*even*__ _smarter storage_, _multiple OS_
 
 _CVS_ - 1986, open source, _multiple files_, _repository_
 
